@@ -16,10 +16,10 @@ const App = () => {
       <NavigationContainer>
         <Stack.Navigator initialRouteName="Home">
           <Stack.Screen name="Home" component={HomeScreen} />
-          <Stack.Screen name="Profile" component={ProfileScreen} />
-          <Stack.Screen name="StylePreferences" component={StylePreferencesScreen} />
-          <Stack.Screen name="Suggestions" component={SuggestionsScreen} />
-          <Stack.Screen name="ProfileSettings" component={ProfileSettingsScreen} />
+          <Stack.Screen name="Perfil" component={ProfileScreen} />
+          <Stack.Screen name="Preferências de Estilo" component={StylePreferencesScreen} />
+          <Stack.Screen name="Sugestões" component={SuggestionsScreen} />
+          <Stack.Screen name="Configurações do Perfil" component={ProfileSettingsScreen} />
         </Stack.Navigator>
       </NavigationContainer>
     </ProfileProvider>

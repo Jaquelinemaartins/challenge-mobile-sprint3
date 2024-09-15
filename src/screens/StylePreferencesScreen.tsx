@@ -6,7 +6,7 @@ const StylePreferencesScreen = ({ navigation }: any) => {
 
   const handleSave = () => {
     console.log('Preferencias salvas', stylePreference);
-    navigation.navigate('Suggestions');
+    navigation.navigate('Sugestões');
   };
 
   return (

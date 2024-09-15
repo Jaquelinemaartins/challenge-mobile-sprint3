@@ -7,13 +7,13 @@ const WelcomeScreen = ({ navigation }: any) => {
       <Text style={styles.title}>Bem-Vindo!</Text>
       <Pressable 
         style={styles.button}
-        onPress={() => navigation.navigate('StylePreferences')} // Nome aqui deve corresponder ao nome registrado
+        onPress={() => navigation.navigate('Preferências de Estilo')} // Nome aqui deve corresponder ao nome registrado
       >
         <Text style={styles.buttonText}>Preferências de Estilo</Text>
       </Pressable>
       <Pressable 
         style={styles.button}
-        onPress={() => navigation.navigate('Profile')} // Nome aqui deve corresponder ao nome registrado
+        onPress={() => navigation.navigate('Perfil')} // Nome aqui deve corresponder ao nome registrado
       >
         <Text style={styles.buttonText}>Perfil</Text>
       </Pressable>

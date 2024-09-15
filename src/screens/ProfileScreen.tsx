@@ -11,7 +11,7 @@ const ProfileScreen = ({ navigation }: any) => {
       <Text style={styles.email}>{email}</Text>
       <Button
         title="Editar Perfil"
-        onPress={() => navigation.navigate('ProfileSettings')}
+        onPress={() => navigation.navigate('Configurações do Perfil')}
       />
     </View>
   );
